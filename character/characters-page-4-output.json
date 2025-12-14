@@ -1,0 +1,14 @@
+{
+  "data": {
+    "characters": {
+      "results": [
+        {
+          "id": "61",
+          "name": "Crocubot",
+          "status": "Dead",
+          "image": "https://rickandmortyapi.com/api/character/avatar/61.jpeg"
+        }
+      ]
+    }
+  }
+}

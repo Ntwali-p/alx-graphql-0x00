@@ -27,3 +27,27 @@ Each `.graphql` file contains a query for a specific character ID, and each corr
 
 ## Status
 Task completed successfully.
+# Rick and Morty GraphQL — Characters Pagination
+
+This task demonstrates how to retrieve a paginated list of characters using the `characters(page: Int)` field from the Rick and Morty GraphQL API.
+
+## Objective
+Fetch characters from pages 1 to 4 while requesting only the necessary fields to optimize data usage.
+
+## Fields Retrieved
+- id
+- name
+- status
+- image
+
+## API Endpoint
+https://rickandmortyapi.com/graphql
+
+## Pagination
+The API returns characters in pages of 20. Each page is queried separately using the `page` argument.
+
+## Files
+Each `.graphql` file contains a query for a specific page, and each `.json` file contains the corresponding API response.
+
+## Status
+Task completed successfully.
